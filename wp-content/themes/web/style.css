@@ -1,0 +1,92 @@
+/*
+Theme Name: 德捷膜的CMS主题
+Theme URI: http://www.dejiemo.com
+Description:德捷膜的CMS主题
+Author: Iris_mao
+Author URI: http://www.dejiemo.com
+Version: 1.0
+Tags: Iris, cms, dejiemo
+*/
+
+/*样式重置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;  padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;
+    font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+a{text-decoration: none}
+a,p,li{ font-family: 'Microsoft YaHei';}
+span{ font-family: "Arial";}
+h1,h2,h3,h4,h5,h6 { font-family: 'Microsoft YaHei'; font-size:100%; font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+.clear{ clear: both;}
+
+/*头部部分*/
+.head div{ height: 5px; background: linear-gradient(90deg, #0c6fc2 50%,  #94c040 50%);width: 50%;display: inline-block;}
+
+/*导航部分*/
+.nav{ height:110px;}
+.nav-main{ width: 1280px; margin: 0 auto;}
+.nav-main ul li{ display: inline;}
+.nav-main ul li a{float: left; height:110px; font-size: 16px; color: #000; text-decoration: none;  padding:0 25px;
+    line-height: 110px;}
+.nav-main ul li a:hover{color: #2f7bc6;}
+.nav-main ul li ul{position: absolute;  top: 115px;  left: 840px;  z-index: 99;}
+.nav-main ul li ul li{display: block;}
+.nav-main ul li ul li a{height: 30px;  line-height: 30px;  background-color:#1681da;margin-bottom: 1px;color: #fff;}
+.nav-main ul .current-menu-item a{color:#2f7bc6;}
+/*首页主体部分*/
+/*标题，段落、标题以及链接下面线的样式*/
+.main .line-blue{width:100px;height: 3px; border-left:100px #0c6fc2 solid;background: url("images/dejiemo-line.png") repeat-x 0 1px;}
+.main h2{font-size: 18px;margin-bottom: 5px;}
+.main p{font-size: 12px;color:#b0b0b0;line-height: 25px;margin-top: 15px;}
+.main .main-list-body a{color: #2f7bc6;}
+/*链接样式*/
+.main .more-link{float: right;margin-top: 20px;}
+.main .more-link a{color: #aeadad;font-size: 10px;}
+.main .banner ul li{ height: 6px;width: 50px;background-color: #fff;display: inline-block; position: relative;
+    top:-50px; left: 870px;}
+.main .main-list-body { height:420px;}
+.main .main-list-body .info-list{width: 1160px; margin: 0 auto;margin-top: 15px;}
+.main .main-list-body > div > div{float: left;height: 380px;}
+.main .main-list-body ul li{padding: 18px 0;border-bottom: 1px solid #b0b0b0;}
+.main .main-show-body{ height:430px;background-color:#f6f7f9;box-shadow:0 3px 8px #e2e2e2 inset; }
+.main .main-show-body .info-list{width: 1160px; margin: 0 auto;padding-top: 30px;}
+
+/*面包屑样式*/
+.main-body{width:1150px;height:772px;margin: 0 auto;}
+.main-body .bread{ font-size: 14px;color: #282828;margin: 20px 0;}
+.main-body .bread ul li{ display: inline-block; line-height: 36px;}
+.main-body .bread ul li a{text-decoration: none;color: #282828;}
+/*文章详情样式*/
+.main-body .text{margin-top: 30px;}
+.main-body .text .text-title{font-size: 18px;color: #222222;margin-bottom: 30px;}
+.main-body .text .text-bk{font-size: 16px;color: #0c6fc2;}
+.main-body .text .text-time{float: right;font-size: 12px;color: #666666;}
+.main-body .text .text-time .time{display:inline-block;width:16px;height:16px;background:url("images/dejiemo-time.png") no-repeat;
+    margin: -3px 10px;}
+.main-body .text .text-details{font-size: 14px;color: #666666;line-height: 25px;}
+/*详情页右侧列表样式*/
+.main-body .list-left{margin-top: 30px;}
+.main-body .list-left ul li{background: url("images/dejimo-left.png");margin-bottom: 1px;}
+.main-body .list-left ul li:hover{background: url("images/dejiemo-left-hover.png");}
+.main-body .list-left ul li a{display:inline-block;height: 35px;line-height: 35px;width:200px;color: #fff;padding-left: 20px;}
+
+/*底部*/
+.bottom{ background: #262729;color: #fff;}
+.bottom .bottom-main{ width: 500px; height: 80px; margin: 0 auto;}
+.bottom .bottom-main p{line-height: 80px;}
+
+/** 翻页 **/
+.navigation {	float:right;	width:700px;	margin: 5px 0 5px 0;	text-align:right;	}
+.navigation_b {	float:right;	width:700px;	text-align:right;	}
+.pagination {	line-height:25px;	}
+.pagination span, .pagination a {	font-size:12px;	margin: 2px 6px 2px 0;	background:#fff;	border:1px solid #ccc;	color:#787878;	padding:2px 5px 2px 5px;	}
+.pagination a:hover {	background: #0196E3;	border:1px solid #fff;	color:#fff;	}
+.pagination .current {	background: #0196E3;	color:#fff;	font-size:12px;	padding:2px 5px 2px 5px;	}
+
+
+
